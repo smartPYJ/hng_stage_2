@@ -29,4 +29,9 @@ while True:
 
 @app.get("/")
 async def root():
-    return {"message": "welcome to my API center smart!"}
+    return {"message": "welcome task 2 Back end !"}
+
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app)
