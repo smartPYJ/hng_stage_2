@@ -27,9 +27,6 @@ while True:
         print("Failed connecting to database:", err)
 
 
-@app.get("/")
-async def root():
+@app.get("/api")
+def hello_world():
     return {"message": "welcome task 2 Back end !"}
-
-
-
